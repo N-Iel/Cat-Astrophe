@@ -156,9 +156,9 @@ MonoBehaviour:
   WeaponCurrentlyActive: 1
   InputAuthorized: 1
   TriggerMode: 0
-  DelayBeforeUse: 0.75
+  DelayBeforeUse: 0.3
   DelayBeforeUseReleaseInterruption: 0
-  TimeBetweenUses: 0.1
+  TimeBetweenUses: 0.8
   TimeBetweenUsesReleaseInterruption: 0
   UseBurstMode: 0
   BurstLength: 3
@@ -211,18 +211,18 @@ MonoBehaviour:
   Flipped: 0
   MeleeDamageAreaMode: 0
   DamageAreaShape: 0
-  AreaSize: {x: 3, y: 2, z: 0}
-  AreaOffset: {x: 1.25, y: 0, z: 0}
+  AreaSize: {x: 5.82, y: 2.12, z: 0}
+  AreaOffset: {x: 0, y: 0.1, z: 0}
   HitDamageableFeedback: {fileID: 0}
   HitNonDamageableFeedback: {fileID: 0}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0
+  InitialDelay: 0.3
   ActiveDuration: 0.1
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 8448
-  MinDamageCaused: 10
-  MaxDamageCaused: 10
+  MinDamageCaused: 1
+  MaxDamageCaused: 1
   Knockback: 1
   KnockbackForce: {x: 500, y: 500, z: 0}
   InvincibilityDuration: 0.5
@@ -437,7 +437,7 @@ MonoBehaviour:
     TimescaleMode: 0
     ExcludeFromHoldingPauses: 0
     ContributeToTotalDuration: 1
-    InitialDelay: 0
+    InitialDelay: 0.25
     CooldownDuration: 0
     InterruptsOnStop: 1
     NumberOfRepeats: 0
