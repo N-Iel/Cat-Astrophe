@@ -1,2 +1,2 @@
 # Cat-Astrophe
-Final project for Stega Academy Bootcamp
+Game project developed for Stega's bootcamp
