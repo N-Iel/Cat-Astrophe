@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
-using UnityEditor.XR;
 using UnityEngine;
 
 /// <summary>
@@ -13,32 +12,32 @@ public class EnemySpawnManager : MonoBehaviour
     [SerializeField] GameObject enemy;
     [SerializeField] float spawnTime = 1f;
     Transform[] spawnPositions;
-    bool isBattleStarted;
-
 
     // Start is called before the first frame update
     void Start()
     {
         spawnPositions = spawnPosFather.GetComponentsInChildren<Transform>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (!isBattleStarted) return;
-
         InvokeRepeating("SpawnEnemy", 1, spawnTime);
     }
 
     // Remove all the enemies in the view
     private void OnDisable()
     {
-        
+        CancelInvoke();
+        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            Destroy(enemy);
+        }
+    }
+
+    private void OnEnable()
+    {
+        InvokeRepeating("SpawnEnemy", 1, spawnTime);
     }
 
     void SpawnEnemy()
     {
-        float spawnIndex = Random.Range(0, spawnPositions.Length);
-        
+        int spawnIndex = Random.Range(0, spawnPositions.Length);
+        Instantiate(enemy, spawnPositions[spawnIndex].position, spawnPositions[spawnIndex].rotation);
     }
 }

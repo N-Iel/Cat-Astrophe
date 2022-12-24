@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4565189611861034}
   - component: {fileID: 114140059323251502}
   - component: {fileID: 114594623923584052}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,8 +147,8 @@ MonoBehaviour:
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 8448
-  MinDamageCaused: 1
-  MaxDamageCaused: 2
+  MinDamageCaused: 30
+  MaxDamageCaused: 30
   Knockback: 1
   KnockbackForce: {x: 300, y: 0, z: 0}
   InvincibilityDuration: 0.5
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 4359571763133392}
   - component: {fileID: 212683281439507044}
   - component: {fileID: 95971963482004484}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Koala_Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 8833998026040116711}
   - component: {fileID: 2057175435906166084}
   - component: {fileID: 7362514042450146844}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: WeaponUsedMMFeedback1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
