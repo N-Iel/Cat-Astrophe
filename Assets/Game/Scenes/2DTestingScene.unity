@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutoAttributePlayerIDs: 1
   PlayerPrefabs:
-  - {fileID: 1246108128683625042, guid: ecf56b3491c991242af65ac22eeead0d, type: 3}
+  - {fileID: 4732944550327495907, guid: a0f176a0fed71eb439c9beadde492d89, type: 3}
   SceneCharacters: []
   InitialSpawnPoint: {fileID: 1475545980}
   CurrentCheckpoint: {fileID: 0}
@@ -2263,7 +2263,7 @@ Transform:
   - {fileID: 2094206103}
   - {fileID: 205783855}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &186018579 stripped
 Transform:
@@ -6503,7 +6503,7 @@ Transform:
   - {fileID: 1246108129439220672}
   - {fileID: 1246108128062404827}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &503695050 stripped
 Transform:
@@ -14348,7 +14348,7 @@ MonoBehaviour:
         m_MethodName: SwapCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1246108128683625052, guid: 3e4a78a57301a02459f49c5ece29f8e8,
+          m_ObjectArgument: {fileID: 4732944550327495917, guid: a0f176a0fed71eb439c9beadde492d89,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -14479,7 +14479,7 @@ MonoBehaviour:
         m_MethodName: SwapCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1246108128683625052, guid: ecf56b3491c991242af65ac22eeead0d,
+          m_ObjectArgument: {fileID: 6391311401666979980, guid: ea31fb0982d2ab041adc179bb93ea093,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -16531,7 +16531,7 @@ MonoBehaviour:
         m_MethodName: SwapCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1246108128683625052, guid: 5b32162f7d785de43adac79e9af19c3f,
+          m_ObjectArgument: {fileID: 5692811342187094559, guid: ef98f7a90635e104e93007f49f4c6b31,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -20400,7 +20400,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736664381
 PrefabInstance:
@@ -22056,7 +22056,7 @@ Transform:
   - {fileID: 1787964460}
   - {fileID: 228863866}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1925371023 stripped
 Transform:
@@ -26157,7 +26157,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 114594623923584052, guid: a9eb38627bf28144dba3289df55b7649,
+  InitialWeapon: {fileID: 114594623923584052, guid: 6aec8241c6278294987822349caf31a5,
     type: 3}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
