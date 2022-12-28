@@ -53,11 +53,11 @@ MonoBehaviour:
   MinimumAngle: -180
   MaximumAngle: 180
   MinimumMagnitude: 0.2
-  ReticleType: 2
-  Reticle: {fileID: 1373789777524232, guid: befee1ecd3ba9f64b8464fce6b1e8494, type: 3}
-  ReticleDistance: 5
+  ReticleType: 1
+  Reticle: {fileID: 1000010525066036, guid: 602a103fa7ad0bf49b2e729ed0181caa, type: 3}
+  ReticleDistance: 1
   ReticleHeight: 0
-  ReticleAtMousePosition: 1
+  ReticleAtMousePosition: 0
   RotateReticle: 0
   ReplaceMousePointer: 1
   MouseDeadZoneRadius: 0.5

@@ -100,8 +100,8 @@ namespace MoreMountains.TopDownEngine
 		/// whether or not this object should get destroyed on death
 		[Tooltip("whether or not this object should get destroyed on death")]
 		public bool DestroyOnDeath = true;
-		/// the time (in seconds) before the character is destroyed or disabled
-		[Tooltip("the time (in seconds) before the character is destroyed or disabled")]
+        /// the time (in seconds) before the character is destroyed or disabled
+        [Tooltip("the time (in seconds) before the character is destroyed or disabled")]
 		public float DelayBeforeDestruction = 0f;
 		/// the points the player gets when the object's health reaches zero
 		[Tooltip("the points the player gets when the object's health reaches zero")]
@@ -890,14 +890,14 @@ namespace MoreMountains.TopDownEngine
 			}
 		}
 
-		#region HealthManipulationAPIs
-		
+        #region HealthManipulationAPIs
 
-		/// <summary>
-		/// Sets the current health to the specified new value, and updates the health bar
-		/// </summary>
-		/// <param name="newValue"></param>
-		public virtual void SetHealth(float newValue)
+
+        /// <summary>
+        /// Sets the current health to the specified new value, and updates the health bar
+        /// </summary>
+        /// <param name="newValue"></param>
+        public virtual void SetHealth(float newValue)
 		{
 			CurrentHealth = newValue;
 			UpdateHealthBar(false);

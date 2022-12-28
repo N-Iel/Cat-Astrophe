@@ -140,4 +140,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/Game/Scenes/BaseBattlePhase.unity
+    guid: bf2ccfab71b5e774d84d0fc1a7432765
   m_configObjects: {}

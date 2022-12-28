@@ -53,7 +53,7 @@ MonoBehaviour:
   MinimumAngle: -180
   MaximumAngle: 180
   MinimumMagnitude: 0.2
-  ReticleType: 2
+  ReticleType: 0
   Reticle: {fileID: 1373789777524232, guid: befee1ecd3ba9f64b8464fce6b1e8494, type: 3}
   ReticleDistance: 5
   ReticleHeight: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
   RotateReticle: 0
   ReplaceMousePointer: 1
   MouseDeadZoneRadius: 0.5
-  DisplayReticle: 1
+  DisplayReticle: 0
   MoveCameraTargetTowardsReticle: 1
   CameraTargetOffset: 0.3
   CameraTargetMaxDistance: 2
