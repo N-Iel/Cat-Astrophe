@@ -539,7 +539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2735052175475409635}
   m_Layer: 0
-  m_Name: Minimal2DCameras --------------------------------------------------------
+  m_Name: Minimal2DCameras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
