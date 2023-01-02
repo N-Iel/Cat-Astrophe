@@ -146,7 +146,10 @@ namespace MoreMountains.TopDownEngine
 		/// the target frame rate for the game
 		[Tooltip("the target frame rate for the game")]
 		public int TargetFrameRate = 300;
-		[Header("Lives")]
+        /// if the mouse is confined to the window or not
+        [Tooltip("if the mouse is confined to the window or not")]
+		public bool isMouseConfined = false;
+        [Header("Lives")]
 		/// the maximum amount of lives the character can currently have
 		[Tooltip("the maximum amount of lives the character can currently have")]
 		public int MaximumLives = 0;
@@ -197,7 +200,8 @@ namespace MoreMountains.TopDownEngine
 		{
 			base.Awake ();
 			PointsOfEntry = new List<PointsOfEntryStorage> ();
-		}
+			if (isMouseConfined) Cursor.lockState = CursorLockMode.Confined;
+        }
 
 		/// <summary>
 		/// On Start(), sets the target framerate to whatever's been specified
