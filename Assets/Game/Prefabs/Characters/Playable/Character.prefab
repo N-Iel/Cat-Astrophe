@@ -4936,6 +4936,7 @@ GameObject:
   - component: {fileID: 1246108128683625054}
   - component: {fileID: -522904251253318265}
   - component: {fileID: 1246108128683625053}
+  - component: {fileID: 1468176445899013302}
   m_Layer: 10
   m_Name: Character
   m_TagString: Player
@@ -5457,6 +5458,26 @@ MonoBehaviour:
   TargetDamageResistanceProcessor: {fileID: 0}
   TargetAnimator: {fileID: 0}
   DisableAnimatorLogs: 1
+--- !u!114 &1468176445899013302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246108128683625052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1c0fc1f870c9e4b908bfb73e021bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
 --- !u!1 &1356563370133656514
 GameObject:
   m_ObjectHideFlags: 0

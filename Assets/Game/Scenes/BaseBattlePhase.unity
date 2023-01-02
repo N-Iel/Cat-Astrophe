@@ -3671,6 +3671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutomaticallyUnparentOnAwake: 1
   TargetFrameRate: 300
+  isMouseConfined: 1
   MaximumLives: 0
   CurrentLives: 0
   GameOverScene: 

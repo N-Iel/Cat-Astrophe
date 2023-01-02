@@ -65,7 +65,13 @@ PrefabInstance:
     - target: {fileID: 1246108128683625052, guid: f8998f081dfbbbd4b80b5e53b8dbbc3c,
         type: 3}
       propertyPath: m_Name
-      value: Character
+      value: Pochi
       objectReference: {fileID: 0}
+    - target: {fileID: 2663382569735542570, guid: f8998f081dfbbbd4b80b5e53b8dbbc3c,
+        type: 3}
+      propertyPath: InitialWeapon
+      value: 
+      objectReference: {fileID: 114594623923584052, guid: a9eb38627bf28144dba3289df55b7649,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8998f081dfbbbd4b80b5e53b8dbbc3c, type: 3}
